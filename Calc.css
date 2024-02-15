@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    background-color: #c86e64;
+}
+.one{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    padding: 20px;
+    background-color: #e4efff;
+    box-shadow: inset 10px 10px 20px #f15d5d,5px 5px 10px;
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+input{
+    padding: 10px;
+    height: 50px;
+    width: 260px;
+    border: 0cap;
+    grid-column: span 4;
+    font-size: 20px;
+    text-align: end;
+    box-shadow: inset 5px -5px 12px #ffffff,inset 5px 5px 10px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+label{
+    height: 70px;
+    width: 270px;
+    font-size: 35px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 40pxpx;
+    
+}
+button{
+    height: 40px;
+    width: 48px;
+    margin: 10px;
+    font-size: 19px;
+    box-shadow: inset 6px 6px 15px #ffffff, 6px 6px 15px rgba(0,0,10,.18);
+    border: none;
+    border-radius: 10px;
+    
+}
+.equalto{
+    width: 115px;
+    background-color: rgba(46, 25, 147, 0.781);
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,6px 6px 15px rgba(0,0,10,.18);
+}

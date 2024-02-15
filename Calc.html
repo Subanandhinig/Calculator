@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Calc.css">
+</head>
+<body>
+    <div class="one">
+        <div class="two">
+            <label><I><b>CALCULATOR</b></I></label>
+            <input type="text" placeholder="START" id="output-screen" style="background-color:orange;"/>
+            <button onclick="clear()" class="operator" style="background-color:pink;">AC</button>
+            <button onclick="del()" class="operator" style="background-color:pink;">DEL</button>
+            <button onclick="display('%')" class="operator" style="background-color:pink;">%</button>
+            <button onclick="display('/')" class="operator" style="background-color:skyblue;">/</button>
+            <button onclick="display('7')" style="background-color:pink;"></style>7</button>
+            <button onclick="display('8')" style="background-color:pink;">8</button>
+            <button onclick="display('9')" style="background-color:pink;">9</button>
+            <button onclick="display('')" class="operator" style="background-color:skyblue;"></button>
+            <button onclick="display('4')" style="background-color:pink;">4</button>
+            <button onclick="display('5')" style="background-color:pink;">5</button>
+            <button onclick="display('6')" style="background-color:pink;">6</button>
+            <button onclick="display('-')" class="operator" style="background-color:skyblue;">-</button>
+            <button onclick="display('1')" style="background-color:pink;">1</button>
+            <button onclick="display('2')" style="background-color:pink;">2</button>
+            <button onclick="display('3')" style="background-color:pink;">3</button>
+            <button onclick="display('+')" class="operator" style="background-color:skyblue">+</button>
+            <button onclick="display('0')" style="background-color:pink;">0</button>
+            <button onclick="display('.')" class="operator" style="background-color:pink;">.</button>
+            <button onclick="calculate()" class="equalto" style="background-color:skyblue">=</button>
+        </div>
+    </div>
+    <script src="Calc.js"></script>
+</body>
+</html>
